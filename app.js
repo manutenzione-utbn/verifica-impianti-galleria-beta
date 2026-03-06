@@ -1248,7 +1248,7 @@ async function actuallyGenerateReport() {
     pdf.text('REPORT VERIFICA APPRESTAMENTI TECNOLOGICI', 105, y + 5, { align: 'center' });
     pdf.setFontSize(10);
     pdf.setFont(undefined, 'normal');
-    pdf.text('Galleria Grande Appenino', 105, y + 12, { align: 'center' });
+    pdf.text('Grande Galleria dell\'Appenino', 105, y + 12, { align: 'center' });
     y += 25;
     
     // Reset text color
